@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1034016218164",
+    "project_id": "coffeefinder-937f8",
+    "storage_bucket": "coffeefinder-937f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034016218164:android:bf6d039954592b3b0bfe61",
+        "android_client_info": {
+          "package_name": "com.example.coffeefinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP0QDTAlkMTh3Df7Jh1WOD9zZa673SDhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
