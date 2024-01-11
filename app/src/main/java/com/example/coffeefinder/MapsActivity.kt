@@ -14,6 +14,7 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.example.coffeefinder.databinding.ActivityMapsBinding
+import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.firestore.toObject
@@ -111,6 +112,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                         .title(coffeePlaces[count].name)
                         .snippet(coffeePlaces[count].comment)
                 )
+                mMap.moveCamera(CameraUpdateFactory.newLatLng(place))
             } else {
                 val text = getString(R.string.error_message)
                 val duration = Toast.LENGTH_SHORT
